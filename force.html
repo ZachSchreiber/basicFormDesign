@@ -23,7 +23,7 @@
     <input name="lightOrDark" id="side" type="checkbox">
     <label for="lightOrDark">Dark</label>
     <input name="lightOrDark" id="side" type="checkbox" value="Dark">
-    <label for="origin"><br>Origin Story<br></label>
+    <label for="origin"><br>Origin Story:<br></label>
     <textarea id="specialInstructions" rows="5" cols="50"></textarea>
   </fieldset>
 
@@ -51,13 +51,24 @@
     <input name="transport" id="pilot" type="radio">
     <label for="pilot">Transport</label>
     <input name="xWing" id="pilot" type="radio">
-    <label for="xwing">X-Wing</label>
-    <input name="tieFighter" id="pilot"
+    <label for="xwing">X-Wing<br></label>
+    <input name="tieFighter" id="pilot" type="radio">
+    <label for="tieFighter">Tie Figther</label>
+    <input name="starship" id="pilot" type="radio">
+    <label for="starship">Starship</label>
+  </fieldset>
 
-    </fieldset>
-    <label for="specialInstructions">Special Instructions</label>
-    <textarea id="specialInstructions" rows="5" cols="50"></textarea>
-    <input type="submit" value="Place Order">
+  <fieldset>
+    <legend>Application Info</legend>
+    <label for="mentor">Desired Mentor:<br></label>
+    <input name="mentor" id="mentor" type="text" value="Jar Jar Binks">
+    <label for="appDate"><br>Application Date:<br></label>
+    <input name="appDate" id="mentor" type="text" value="mm/dd/yyyy">
+    <label for="appPass"><br>Application Password<br></label>
+    <input name="appPass" id="appPass" type="text" value="Password">
+
+  </fieldset>
+
   </form>
 </main>
 </body>
