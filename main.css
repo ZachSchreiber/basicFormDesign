@@ -1,5 +1,19 @@
+h1 {
+  font-family: verdana;
+
+}
+legend{
+  font-style: bold;
+}
 fieldset {
   float:left;
   width: 30%;
 
+}
+textarea:hover {
+  background-color: #0092d7;
+
+}
+.grayField {
+  background-color: #e0e0e0;
 }
