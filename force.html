@@ -10,26 +10,26 @@
   <h1>Force User Signup Form</h1>
 </header>
 <main>
-  <form action="http://www.google.com" method="post" autocomplete="off">
+  <form action="force.html" method="post" autocomplete="off">
 
-    <fieldset>
+    <fieldset class="grayField">
       <legend>Basic Info</legend>
     <label for="name">Your Full Name<br></label>
-    <input id="name" type="text" value="Full Name">
+    <textarea id="smallText" type="text" value="Full Name" rows="1" cols="50"></textarea>
     <label for="profilePic"><br>Profile Pic</label>
     <input id="profilePic" type="file" name="profilePic">
-    <label for="email">Email</label>
-    <input id="email" type="text" placeholder="Email Address">
+    <label for="email">Email<br></label>
+    <textarea id="smallText" type="text" placeholder="Email Address" rows="1" cols="50"></textarea>
     <label for="side"><br>Side:</label>
     <label for="lightOrDark">Light</label>
-    <input name="lightOrDark" id="side" type="checkbox">
+    <input name="lightOrDark" id="side" type="radio">
     <label for="lightOrDark">Dark</label>
-    <input name="lightOrDark" id="side" type="checkbox" value="Dark">
+    <input name="lightOrDark" id="side" type="radio" value="Dark">
     <label for="origin"><br>Origin Story:<br></label>
-    <textarea id="specialInstructions" rows="5" cols="50"></textarea>
+    <textarea id="originStory" rows="5" cols="50"></textarea>
   </fieldset>
 
-  <fieldset>
+  <fieldset class="grayField">
     <legend>Abilities</legend>
     <label for"lightSaber">LightSaber Color:<br></label>
     <select id="colorWheel">
@@ -46,31 +46,31 @@
       <option>4</option>
     </select>
     <label for="favAbility"><br>Favorite Ability:<br></label>
-    <input name="favAbility" id="favAbility" type="text" value="Telekinesis, ect.">
+    <textarea name="favAbility" id="smallText" type="text" placeholder="Telekinesis, ect." rows="1" cols="50"></textarea>
     <label for="pilot"><br>Pilot Experience:<br></label>
-    <input name="speeder" id="pilot" type="radio">
+    <input name="speeder" id="pilot" type="checkbox">
     <label for="pilot">Speeder</label>
-    <input name="transport" id="pilot" type="radio">
+    <input name="transport" id="pilot" type="checkbox">
     <label for="pilot">Transport</label>
-    <input name="xWing" id="pilot" type="radio">
+    <input name="xWing" id="pilot" type="checkbox">
     <label for="xwing">X-Wing<br></label>
-    <input name="tieFighter" id="pilot" type="radio">
+    <input name="tieFighter" id="pilot" type="checkbox">
     <label for="tieFighter">Tie Figther</label>
-    <input name="starship" id="pilot" type="radio">
+    <input name="starship" id="pilot" type="checkbox">
     <label for="starship">Starship</label>
   </fieldset>
 
-  <fieldset>
+  <fieldset class="grayField">
     <legend>Application Info</legend>
     <label for="mentor">Desired Mentor:<br></label>
-    <input name="mentor" id="mentor" type="text" value="Jar Jar Binks">
+    <textarea name="mentor" id="smallText" type="text" value="Jar Jar Binks" rows="1" cols="50"></textarea>
     <label for="appDate"><br>Application Date:<br></label>
-    <input name="appDate" id="mentor" type="date" value="mm/dd/yyyy">
+    <input name="appDat" type="date" value="mm/dd/yyyy">
     <label for="appPass"><br>Application Password<br></label>
-    <input name="appPass" id="appPass" type="text" value="Password">
+    <textarea name="appPass" id="appPass" type="text" value="Password" rows="1" cols="50"></textarea>
     <label for="howToDarkside"><br>How do you get to the darkside?<br></label>
     <textarea id="howToDarkside" rows="5" cols="50"></textarea>
-    <button id="startOver" type="button|submit|reset">Start Over</button>
+    <input type="reset" value="Start Over">
     <button id="submit" type="button|submit">Apply</button>
   </fieldset>
 
