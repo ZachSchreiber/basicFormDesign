@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>
+  </title>
+  <link rel="stylesheet" href="styles.main.css">
+</head>
+<body>
+  <header>
+  <h1>Force User Signup Form</h1>
+</header>
+<main>
+  <form action="http://www.google.com" method="post" autocomplete="off">
+
+    <fieldset>
+      <legend>Basic Info</legend>
+    <label for="profilePic">Profile Pic</label>
+    <input id="profilePic" type="file" name="profilePic">
+    <label for="email">Email</label>
+    <input id="email" type="text" placeholder="Email Address">
+    <label for="side"><br>Side:</label>
+    <label for="lightDark">Light</label>
+    <input name="lightOrDark" id="side" type="checkbox" value="Light">
+    <label for="lightOrDark">Dark</label>
+    <input name="lightOrDark" id="side" type="checkbox" value="Dark">
+    <label for="origin"><br>Origin Story<br></label>
+    <textarea id="specialInstructions" rows="5" cols="50"></textarea>
+  </fieldset>
+
+  <fieldset>
+    <legend>Abilities</legend>
+    <label for"lightSaber">LightSaber Color</label>
+    <select id="colorWheel">
+      <option>Green</option>
+      <option>Red</option>
+      <option>Blue</option>
+      <option>violet</option>
+    </select>
+    <label for="levitate">How Many Items can you levitate?</label>
+    <select id="itemsLevitated">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+    </select>
+    <label for="pepperoni">Pepperoni</label>
+    <input name="toppings" id="pepperoni" type="checkbox" value="pepperoni">
+    <label for="bacon">Bacon</label>
+    <input name="toppings" id="bacon" type="checkobx" value="bacon">
+
+    </fieldset>
+    <label for="specialInstructions">Special Instructions</label>
+    <textarea id="specialInstructions" rows="5" cols="50"></textarea>
+    <input type="submit" value="Place Order">
+  </form>
+</main>
+</body>
+</html>
