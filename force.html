@@ -10,21 +10,26 @@
   <h1>Force User Signup Form</h1>
 </header>
 <main>
-  <form action="force.html" method="post" autocomplete="off">
+  <form action="demo_form.asp" method="post" autocomplete="on">
 
     <fieldset class="grayField">
       <legend>Basic Info</legend>
     <label for="name">Your Full Name<br></label>
-    <textarea id="smallText" type="text" value="Full Name" rows="1" cols="50"></textarea>
+    <textarea id="smallText" type="text" value="Full Name" rows="1" cols="50" placeholder="Name"></textarea>
+    <br>
     <label for="profilePic"><br>Profile Pic</label>
     <input id="profilePic" type="file" name="profilePic">
+    <br>
+    <br>
     <label for="email">Email<br></label>
     <textarea id="smallText" type="text" placeholder="Email Address" rows="1" cols="50"></textarea>
-    <label for="side"><br>Side:</label>
+    <br>
+    <label for="side"><br>Side:<br></label>
     <label for="lightOrDark">Light</label>
     <input name="lightOrDark" id="side" type="radio">
     <label for="lightOrDark">Dark</label>
     <input name="lightOrDark" id="side" type="radio" value="Dark">
+    <br>
     <label for="origin"><br>Origin Story:<br></label>
     <textarea id="originStory" rows="5" cols="50"></textarea>
   </fieldset>
@@ -63,7 +68,7 @@
   <fieldset class="grayField">
     <legend>Application Info</legend>
     <label for="mentor">Desired Mentor:<br></label>
-    <textarea name="mentor" id="smallText" type="text" value="Jar Jar Binks" rows="1" cols="50"></textarea>
+    <textarea name="mentor" id="smallText" type="text" placeholder="Jar Jar Binks" rows="1" cols="50"></textarea>
     <label for="appDate"><br>Application Date:<br></label>
     <input name="appDat" type="date" value="mm/dd/yyyy">
     <label for="appPass"><br>Application Password<br></label>
