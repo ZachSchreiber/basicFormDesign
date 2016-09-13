@@ -14,7 +14,9 @@
 
     <fieldset>
       <legend>Basic Info</legend>
-    <label for="profilePic">Profile Pic</label>
+    <label for="name">Your Full Name</label>
+    <input id="name" type="text" value="Full Name">
+    <label for="profilePic"><br>Profile Pic</label>
     <input id="profilePic" type="file" name="profilePic">
     <label for="email">Email</label>
     <input id="email" type="text" placeholder="Email Address">
@@ -63,12 +65,13 @@
     <label for="mentor">Desired Mentor:<br></label>
     <input name="mentor" id="mentor" type="text" value="Jar Jar Binks">
     <label for="appDate"><br>Application Date:<br></label>
-    <input name="appDate" id="mentor" type="text" value="mm/dd/yyyy">
+    <input name="appDate" id="mentor" type="date" value="mm/dd/yyyy">
     <label for="appPass"><br>Application Password<br></label>
     <input name="appPass" id="appPass" type="text" value="Password">
-    <label for="howToDarkside">How do you get to the darkside?</label>
-    <input name="howToDarkSide" id="howToDarkside" type="text">
-
+    <label for="howToDarkside"><br>How do you get to the darkside?<br></label>
+    <textarea id="howToDarkside" rows="5" cols="50"></textarea>
+    <button id="startOver" type="button|submit|reset">Start Over</button>
+    <button id="submit" type="button|submit">Apply</button>
   </fieldset>
 
   </form>
