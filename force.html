@@ -3,7 +3,7 @@
 <head>
   <title>
   </title>
-  <link rel="stylesheet" href="styles.main.css">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
   <header>
@@ -20,7 +20,7 @@
     <input id="email" type="text" placeholder="Email Address">
     <label for="side"><br>Side:</label>
     <label for="lightOrDark">Light</label>
-    <input name="lightOrDark" id="side" type="checkbox" value="Light">
+    <input name="lightOrDark" id="side" type="checkbox">
     <label for="lightOrDark">Dark</label>
     <input name="lightOrDark" id="side" type="checkbox" value="Dark">
     <label for="origin"><br>Origin Story<br></label>
@@ -29,24 +29,30 @@
 
   <fieldset>
     <legend>Abilities</legend>
-    <label for"lightSaber">LightSaber Color</label>
+    <label for"lightSaber">LightSaber Color:<br></label>
     <select id="colorWheel">
       <option>Green</option>
       <option>Red</option>
       <option>Blue</option>
       <option>violet</option>
     </select>
-    <label for="levitate">How Many Items can you levitate?</label>
+    <label for="levitate"><br>How Many Items can you levitate?<br></label>
     <select id="itemsLevitated">
       <option>1</option>
       <option>2</option>
       <option>3</option>
       <option>4</option>
     </select>
-    <label for="favAbility">Favorite Ability</label>
+    <label for="favAbility"><br>Favorite Ability:<br></label>
     <input name="favAbility" id="favAbility" type="text" value="Telekinesis, ect.">
-    <label for="pilot">Pilot Experience</label>
-    <input name="pilot" id="pilot" type="checkobx" value="speeder">
+    <label for="pilot"><br>Pilot Experience:<br></label>
+    <input name="speeder" id="pilot" type="radio">
+    <label for="pilot">Speeder</label>
+    <input name="transport" id="pilot" type="radio">
+    <label for="pilot">Transport</label>
+    <input name="xWing" id="pilot" type="radio">
+    <label for="xwing">X-Wing</label>
+    <input name="tieFighter" id="pilot"
 
     </fieldset>
     <label for="specialInstructions">Special Instructions</label>
@@ -56,4 +62,3 @@
 </main>
 </body>
 </html>
-
