@@ -15,68 +15,68 @@
     <fieldset class="grayField">
       <legend>Basic Info</legend>
     <label for="name">Your Full Name<br></label>
-    <textarea id="smallText" type="text" value="Full Name" rows="1" cols="50" placeholder="Name"></textarea>
+    <textarea  type="text" value="Full Name" rows="1" cols="50" placeholder="Name" required></textarea>
     <br>
     <label for="profilePic"><br>Profile Pic</label>
-    <input id="profilePic" type="file" name="profilePic">
+    <input type="file" name="profilePic">
     <br>
     <br>
     <label for="email">Email<br></label>
-    <textarea id="smallText" type="text" placeholder="Email Address" rows="1" cols="50"></textarea>
+    <textarea  type="text" placeholder="Email Address" rows="1" cols="50" required></textarea>
     <br>
     <label for="side"><br>Side:<br></label>
     <label for="lightOrDark">Light</label>
-    <input name="lightOrDark" id="side" type="radio">
+    <input name="lightOrDark"  type="radio">
     <label for="lightOrDark">Dark</label>
-    <input name="lightOrDark" id="side" type="radio" value="Dark">
+    <input name="lightOrDark"  type="radio" value="Dark">
     <br>
     <label for="origin"><br>Origin Story:<br></label>
-    <textarea id="originStory" rows="5" cols="50"></textarea>
+    <textarea  rows="5" cols="50" required></textarea>
   </fieldset>
 
   <fieldset class="grayField">
     <legend>Abilities</legend>
     <label for"lightSaber">LightSaber Color:<br></label>
-    <select id="colorWheel">
+    <select >
       <option>Green</option>
       <option>Red</option>
       <option>Blue</option>
       <option>violet</option>
     </select>
     <label for="levitate"><br>How Many Items can you levitate?<br></label>
-    <select id="itemsLevitated">
+    <select>
       <option>1</option>
       <option>2</option>
       <option>3</option>
       <option>4</option>
     </select>
     <label for="favAbility"><br>Favorite Ability:<br></label>
-    <textarea name="favAbility" id="smallText" type="text" placeholder="Telekinesis, etc." rows="1" cols="50"></textarea>
+    <textarea name="favAbility"  type="text" placeholder="Telekinesis, etc." rows="1" cols="50"></textarea>
     <label for="pilot"><br>Pilot Experience:<br></label>
-    <input name="speeder" id="pilot" type="checkbox">
+    <input name="speeder"  type="checkbox">
     <label for="pilot">Speeder</label>
-    <input name="transport" id="pilot" type="checkbox">
+    <input name="transport"  type="checkbox">
     <label for="pilot">Transport</label>
-    <input name="xWing" id="pilot" type="checkbox">
+    <input name="xWing"  type="checkbox">
     <label for="xwing">X-Wing<br></label>
-    <input name="tieFighter" id="pilot" type="checkbox">
+    <input name="tieFighter"  type="checkbox">
     <label for="tieFighter">Tie Figther</label>
-    <input name="starship" id="pilot" type="checkbox">
+    <input name="starship" type="checkbox">
     <label for="starship">Starship</label>
   </fieldset>
 
   <fieldset class="grayField">
     <legend>Application Info</legend>
     <label for="mentor">Desired Mentor:<br></label>
-    <textarea name="mentor" id="smallText" type="text" placeholder="Jar Jar Binks" rows="1" cols="50"></textarea>
+    <textarea name="mentor" type="text" placeholder="Jar Jar Binks" rows="1" cols="50"></textarea>
     <label for="appDate"><br>Application Date:<br></label>
-    <input name="appDat" type="date" value="mm/dd/yyyy">
+    <input name="appDat" type="date" value="mm/dd/yyyy" required>
     <label for="appPass"><br>Application Password<br></label>
-    <textarea name="appPass" id="appPass" type="text" value="Password" rows="1" cols="50"></textarea>
+    <textarea name="appPass" type="text" value="Password" rows="1" cols="50" required></textarea>
     <label for="howToDarkside"><br>How do you get to the darkside?<br></label>
-    <textarea id="howToDarkside" rows="5" cols="50"></textarea>
+    <textarea rows="5" cols="50"></textarea>
     <input type="reset" value="Start Over">
-    <button id="submit" type="button|submit">Apply</button>
+    <button  type="button|submit">Apply</button>
   </fieldset>
 
   </form>
